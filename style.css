@@ -20,14 +20,6 @@ body{
 	}
 }
 
-@media only screen 
-and (min-device-width : 1000px) 
-and (max-device-width : 480px) {
-	#container {
-		height: 100%;
-	}
-	}
-}
 /*website logo start*/
 
 .logo{
