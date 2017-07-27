@@ -1,0 +1,522 @@
+body{
+	margin: 0px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.main {
+	height: 700px;
+	background-image: url(Images/10.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media screen and (min-width:1000px) {
+	#container {
+		height: 700px;
+		width: 1000px;
+		margin: 0 auto;
+	}
+}
+/*website logo start*/
+
+.logo{
+	background-image: url(Images/logo.png)
+	float: left;
+	margin-top: 30px;
+	width: 100px;
+	height: 100px;
+	color: #fff;
+
+}
+
+/*website logo end*/
+
+
+.header {
+	margin-top: 0px;
+	width: 100%;
+}
+
+/*navbar start*/
+
+nav {
+	float: right;
+	margin-top: 60px;
+}
+
+.navbar {
+	color: #fff;
+	font-size: 15px;
+	margin-left: 25px;
+	text-decoration: none;
+}
+
+.navbar:hover {
+	color: black;
+}
+
+.dropbtn {
+	font-family: 'Josefin Sans', sans-serif;
+    background-color: transparent;
+    color: white;
+    padding-left: 25px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+	color: black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #;
+    min-width: 160px;
+    padding-left: 25px;
+    font-size: 15px;
+    z-index: 1;
+}
+
+
+
+.dropdown-content a {
+    color: #fff;
+    padding-top: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {color: black}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+   
+}
+/*navbar end*/
+
+/*social media logo start*/
+
+.instagramlogo {
+	float: right;
+	margin-top: 175px;
+	padding: 15px;
+	height: 45px;
+	width: 45px;
+}
+
+
+.youtubelogo {
+	float: right;
+	margin-top: 175px;
+	padding: 15px;
+	height: 45px;
+	width: 45px;
+}
+
+.facebooklogo {
+	float: right;
+	margin-top: 175px;
+	padding: 15px;
+	height: 45px;
+	width: 45px;
+}
+
+.instagramlogodancegallery {
+
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+}
+
+
+.youtubelogodancegallery {
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+}
+
+
+.facebooklogodancegallery {
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+}
+
+.emaillogocontact {
+	display: block;
+	height: 60px;
+	width: 443.67px;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+.instagramlogocontact {
+	display: block;
+	height: 60px;
+	width: 337.76px;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+.youtubelogocontact {
+	display: block;
+	height: 60px;
+	width: 266.81px;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+.facebooklogocontact {
+	display: block;
+	height: 60px;
+	width: 323px;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+
+
+/*social media logo end*/
+
+
+footer {
+	color: white;
+	margin-bottom: 25px;
+	text-decoration: none;
+	font-size: 10px;
+	margin-top: 500px;
+	bottom: 0;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+/*background for each page start*/
+
+.dancegalleryhead {
+	height: 2780px;
+	background-image: url(Images/gallerybackground.png);
+	background-position: center-center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.dancevideohead {
+	height: 2370px;
+	background-image: url(Images/dancevideobackground.png);
+	background-position: center-center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photographygalleryhead {
+	height: 4000px;
+	background-image: url(Images/photographygallerybackground.png);
+	background-position: center-center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.photographyvideohead {
+	height: 2000px;
+	background-image: url(Images/photographyvideobackground.png);
+	background-position: center-center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.contacthead {
+	height: 700px;
+	background-image: url(Images/38.png);
+	background-position: center-center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*background for each page end*/
+
+
+/*dance gallery page start*/
+
+span {
+	text-align: center;
+}
+
+h1 {
+	font-weight: lighter;
+	font-size: 90px;
+	color: #fff;
+	text-align: center;
+	padding-top: 5px;
+	clear: both;
+	text-decoration: none;
+	border-bottom: 2px solid white;
+	border-radius: 10px;
+}
+
+h2 {
+	margin-top: -60px;
+}
+
+.dancegalleryimg1 {
+	background: #0000000;
+	height: 285px;
+	width: 190px;
+	margin: 5px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+
+/*
+.dancegalleryimg1:hover {
+	border: 2px solid black;
+
+}
+*/
+.dancegalleryimg2 {
+	background: #0000000;
+	height: 285px;
+	width: 427.5px;
+	margin: 5px;
+	border:1px solid #;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+/*
+.dancegalleryimg2:hover {
+	border: 2px solid black;
+	margin: 5px;
+}
+*/
+h3 {
+	margin-left: -100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+
+h4 {
+	color: white;
+	font-size: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.dancegalleryimg1 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.dancegalleryimg1 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.dancegalleryimg2 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.dancegalleryimg2 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+/*dance gallery page end*/
+
+
+
+/*dance videos page start*/
+
+.videos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;
+}
+
+/*dance videos page end*/
+
+
+/*contact page start*/
+
+h5 {
+	font-size: 90px;
+	color: #fff;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding-top: 0px;
+	clear: both;
+
+}
+
+.contactlogo {
+	margin-left: 25px;
+	margin-top: -140px;
+}
+
+/*contact page end*/
+
+/*photography gallery page start*/
+
+.photographygalleryimg1 {
+	background: #0000000;
+	height: 285px;
+	width: 427.5px;
+	margin: 5px;
+	border:1px solid #;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+
+.photographygalleryimg1 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.photographygalleryimg1 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.photographygalleryimg2 {
+	background: #0000000;
+	height: 285px;
+	width: 260.59px;
+	margin: 5px;
+	border:1px solid #;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+
+.photographygalleryimg2 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.photographygalleryimg2 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+.photographygalleryimg3 {
+	background: #0000000;
+	height: 285px;
+	width: 190px;
+	margin: 5px;
+	border:1px solid #;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+
+.photographygalleryimg3 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.photographygalleryimg3 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+.photographygalleryimg4 {
+	background: #0000000;
+	height: 285px;
+	width: 213.75px;
+	margin: 5px;
+	border:1px solid #;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+
+.photographygalleryimg4 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.photographygalleryimg4 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+.photographygalleryimg6 {
+	background: #0000000;
+	height: 285px;
+	width: 336.6px;
+	margin: 5px;
+	border:1px solid #;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+
+.photographygalleryimg6 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.photographygalleryimg6 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+.photographygalleryimg7 {
+	background: #0000000;
+	height: 285px;
+	width: 204.95px;
+	margin: 5px;
+	border:1px solid #;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+	border-radius: 20px;  
+}
+
+.photographygalleryimg7 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.photographygalleryimg7 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+h3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
