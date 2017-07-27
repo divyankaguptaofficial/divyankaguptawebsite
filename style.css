@@ -20,6 +20,7 @@ body{
 	}
 }
 
+
 /*website logo start*/
 
 .logo{
@@ -700,20 +701,20 @@ h3 {
   	bottom: 0;
   	left: 0;
   	background-color: black;
-
 }
 
 #sitefooterdancegallery {
 	position: absolute;
-	margin-bottom: -2700px;
+	margin-bottom: -2725px;
   	right: 0;
   	bottom: 0;
   	left: 0;
   	background-color: black;
 
+
 }
 
-#sitefootercontact {
+#sitefooterhome {
 	position: absolute;
 	margin-bottom: -80px;
   	right: 0;
@@ -723,9 +724,19 @@ h3 {
 
 }
 
-#sitefootercontact {
+#sitefooterdancevideo {
 	position: absolute;
-	margin-bottom: -80px;
+	margin-bottom: -2500px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-color: black;
+
+}
+
+#sitefooterphotographygallery {
+	position: absolute;
+	margin-bottom: -3450px;
   	right: 0;
   	bottom: 0;
   	left: 0;
