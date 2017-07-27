@@ -104,6 +104,8 @@ nav {
 .dropdown:hover .dropbtn {
    
 }
+
+
 /*navbar end*/
 
 /*social media logo start*/
@@ -196,8 +198,8 @@ footer {
 	margin-bottom: 25px;
 	text-decoration: none;
 	font-size: 10px;
-	margin-top: 600px;
-	bottom: 0;
+	margin-top: 520px;
+	bottom: 10px;
 	text-align: center;
 	vertical-align: middle;
 
@@ -216,7 +218,7 @@ footer {
 
 
 .dancevideohead {
-	height: 2450px;
+	height: 2390px;
 	background-image: url(Images/dancevideobackground.png);
 	background-position: center-center;
 	background-repeat: no-repeat;
@@ -282,6 +284,10 @@ h2 {
 	border-radius: 20px;  
 }
 
+.dancegalleryimg1:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
 /*
 .dancegalleryimg1:hover {
 	border: 2px solid black;
@@ -298,12 +304,12 @@ h2 {
 -moz-border-radius: 20px;
 	border-radius: 20px;  
 }
-/*
+
 .dancegalleryimg2:hover {
-	border: 2px solid black;
-	margin: 5px;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
-*/
+
 h3 {
 	margin-left: -100px;
 	display: flex;
@@ -316,31 +322,12 @@ h3 {
 h4 {
 	color: white;
 	font-size: 10px;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 0px;
 	text-align: center;
 }
 
-.dancegalleryimg1 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.dancegalleryimg1 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
 
-.dancegalleryimg2 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.dancegalleryimg2 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
 /*dance gallery page end*/
 
 
@@ -390,15 +377,9 @@ h5 {
 	border-radius: 20px;  
 }
 
-.photographygalleryimg1 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.photographygalleryimg1 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+.photographygalleryimg1:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 .photographygalleryimg2 {
@@ -412,15 +393,9 @@ h5 {
 	border-radius: 20px;  
 }
 
-.photographygalleryimg2 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.photographygalleryimg2 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+.photographygalleryimg2:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 
@@ -435,15 +410,9 @@ h5 {
 	border-radius: 20px;  
 }
 
-.photographygalleryimg3 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.photographygalleryimg3 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+.photographygalleryimg3:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 
@@ -458,16 +427,11 @@ h5 {
 	border-radius: 20px;  
 }
 
-.photographygalleryimg4 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+.photographygalleryimg4:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
-.photographygalleryimg4 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
+
 
 
 .photographygalleryimg6 {
@@ -481,15 +445,9 @@ h5 {
 	border-radius: 20px;  
 }
 
-.photographygalleryimg6 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.photographygalleryimg6 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+.photographygalleryimg6:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 
@@ -504,15 +462,9 @@ h5 {
 	border-radius: 20px;  
 }
 
-.photographygalleryimg7 figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.photographygalleryimg7 figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+.photographygalleryimg7:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 
