@@ -32,6 +32,12 @@ body{
 
 }
 
+.logo:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+
+}
+
 /*website logo end*/
 
 
@@ -56,6 +62,8 @@ nav {
 
 .navbar:hover {
 	color: black;
+	text-shadow: white 2px 2px 5px;
+
 }
 
 .dropbtn {
@@ -70,6 +78,7 @@ nav {
 
 .dropbtn:hover {
 	color: black;
+	text-shadow: white 2px 2px 5px;
 }
 .dropdown {
     position: relative;
@@ -95,7 +104,9 @@ nav {
     display: block;
 }
 
-.dropdown-content a:hover {color: black}
+.dropdown-content a:hover {
+	color: black
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -108,6 +119,81 @@ nav {
 
 /*navbar end*/
 
+/*category bar*/
+.category {
+	position: center;
+	padding: 30px;
+	margin-top: -80px;
+}
+
+.categorybar {
+	color: #fff;
+	font-size: 20px;
+	margin-left: 25px;
+	text-decoration: none;
+}
+
+.categorybar:hover {
+	color: black;
+	text-shadow: white 2px 2px 5px;
+
+}
+
+.category:hover {
+	color: black;
+	
+}
+
+.dropbtn1 {
+	font-family: 'Josefin Sans', sans-serif;
+    background-color: transparent;
+    color: white;
+    padding-left: 25px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn1:hover {
+	color: black;
+	text-shadow: white 2px 2px 5px;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #;
+    min-width: 160px;
+    padding-left: 25px;
+    font-size: 15px;
+    z-index: 1;
+}
+
+
+
+.dropdown-content1 a {
+    color: #fff;
+    padding-top: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover {color: black}
+
+.dropdown1:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown1:hover .dropbtn {
+   
+}
+
+/*category bar end*/
+
 /*social media logo start*/
 
 .instagramlogo {
@@ -118,6 +204,10 @@ nav {
 	width: 45px;
 }
 
+.instagramlogo:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
 
 .youtubelogo {
 	float: right;
@@ -125,6 +215,10 @@ nav {
 	padding: 15px;
 	height: 45px;
 	width: 45px;
+}
+.youtubelogo:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 .facebooklogo {
@@ -134,6 +228,10 @@ nav {
 	height: 45px;
 	width: 45px;
 }
+.facebooklogo:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
 
 .instagramlogodancegallery {
 
@@ -142,6 +240,10 @@ nav {
 	width: 40px;
 }
 
+.instagramlogodancegallery:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
 
 .youtubelogodancegallery {
 	padding: 10px;
@@ -149,11 +251,21 @@ nav {
 	width: 40px;
 }
 
+.youtubelogodancegallery:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
 
 .facebooklogodancegallery {
 	padding: 10px;
 	height: 40px;
 	width: 40px;
+}
+
+.facebooklogodancegallery:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 .emaillogocontact {
@@ -164,12 +276,22 @@ nav {
 	margin-left: 30px;
 }
 
+.emaillogocontact:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
 .instagramlogocontact {
 	display: block;
 	height: 60px;
 	width: 337.76px;
 	padding: 10px;
 	margin-left: 30px;
+}
+
+.instagramlogocontact:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 .youtubelogocontact {
@@ -180,12 +302,22 @@ nav {
 	margin-left: 30px;
 }
 
+.youtubelogocontact:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
 .facebooklogocontact {
 	display: block;
 	height: 60px;
 	width: 323px;
 	padding: 10px;
 	margin-left: 30px;
+}
+
+.facebooklogocontact:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 
@@ -208,8 +340,7 @@ footer {
 /*background for each page start*/
 
 .dancegalleryhead {
-	height: 2550px;
-	width: 1250px;
+	height: 3350px;
 	background-image: url(Images/gallerybackground.png);
 	background-position: center-center;
 	background-repeat: no-repeat;
@@ -226,7 +357,7 @@ footer {
 }
 
 .photographygalleryhead {
-	height: 4000px;
+	height: 4100px;
 	background-image: url(Images/photographygallerybackground.png);
 	background-position: center-center;
 	background-repeat: no-repeat;
@@ -271,7 +402,7 @@ h1 {
 }
 
 h2 {
-	margin-top: -60px;
+	margin-top: -30px;
 }
 
 .dancegalleryimg1 {
@@ -328,6 +459,39 @@ h4 {
 }
 
 
+.bharatanatyam {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
+
+}
+
+.danceportraits {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
+}
+
+.bujalwa {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
+}
+
+.natyasangam {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
+}
+
 /*dance gallery page end*/
 
 
@@ -339,6 +503,39 @@ h4 {
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 10px;
+}
+
+.bharatanatyam1 {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
+
+}
+
+.classicalfusion {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
+}
+
+.otherstyles {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
+}
+
+.bujalwa1 {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
 }
 
 /*dance videos page end*/
@@ -473,4 +670,29 @@ h3 {
 	flex-wrap: wrap;
 	justify-content: center;
 
+}
+
+.landscapes {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
+
+}
+
+.portraits {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
+}
+
+.other {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	padding-top: 50px;
 }
