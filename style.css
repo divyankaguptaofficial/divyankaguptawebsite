@@ -205,7 +205,8 @@ footer {
 /*background for each page start*/
 
 .dancegalleryhead {
-	height: 2780px;
+	height: 2550px;
+	width: 1250px;
 	background-image: url(Images/gallerybackground.png);
 	background-position: center-center;
 	background-repeat: no-repeat;
@@ -214,7 +215,7 @@ footer {
 
 
 .dancevideohead {
-	height: 2370px;
+	height: 2450px;
 	background-image: url(Images/dancevideobackground.png);
 	background-position: center-center;
 	background-repeat: no-repeat;
