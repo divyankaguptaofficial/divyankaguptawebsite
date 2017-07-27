@@ -349,7 +349,7 @@ footer {
 
 
 .dancevideohead {
-	height: 2390px;
+	height: 3150px;
 	background-image: url(Images/dancevideobackground.png);
 	background-position: center-center;
 	background-repeat: no-repeat;
@@ -450,13 +450,7 @@ h3 {
 }
 
 
-h4 {
-	color: white;
-	font-size: 10px;
-	padding-top: 20px;
-	padding-bottom: 0px;
-	text-align: center;
-}
+
 
 
 .bharatanatyam {
@@ -695,4 +689,46 @@ h3 {
 	text-align: center;
 	text-decoration: underline;
 	padding-top: 50px;
+}
+
+/*footer*/
+
+#sitefootercontact {
+	position: absolute;
+	margin-bottom: -80px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-color: black;
+
+}
+
+#sitefooterdancegallery {
+	position: absolute;
+	margin-bottom: -2700px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-color: black;
+
+}
+
+#sitefootercontact {
+	position: absolute;
+	margin-bottom: -80px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-color: black;
+
+}
+
+#sitefootercontact {
+	position: absolute;
+	margin-bottom: -80px;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	background-color: black;
+
 }
