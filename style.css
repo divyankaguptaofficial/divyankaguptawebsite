@@ -749,7 +749,7 @@ h3 {
 
 #sitefooterdancevideo {
 	position: absolute;
-	
+	margin-bottom: -2525px;
   	right: 0;
   	bottom: 0;
   	left: 0;
@@ -759,7 +759,7 @@ h3 {
 
 #sitefooterphotographygallery {
 	position: absolute;
-	
+	margin-bottom: -3475px;
   	right: 0;
   	bottom: 0;
   	left: 0;
