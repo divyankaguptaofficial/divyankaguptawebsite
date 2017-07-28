@@ -5,8 +5,8 @@ body{
 }
 
 .main {
-	height: 700px;
-	background-image: url(Images/10.jpg);
+	height: 2000px;
+	background-image: url(Images/11.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -14,7 +14,7 @@ body{
 
 @media screen and (min-width:1000px) {
 	#container {
-		height: 700px;
+		height: 100%;
 		width: 1000px;
 		margin: 0 auto;
 	}
@@ -120,6 +120,11 @@ nav {
 
 /*navbar end*/
 
+.videohome {
+	padding: 30px;
+	margin-left: 90px;
+	margin-bottom: -1500px;
+}
 /*category bar*/
 .category {
 	position: center;
@@ -197,12 +202,20 @@ nav {
 
 /*social media logo start*/
 
+
+
 .instagramlogo {
-	float: right;
-	margin-top: 175px;
 	padding: 15px;
-	height: 45px;
-	width: 45px;
+	height: 60px;
+	width: 60px;
+	margin-bottom: -700px;
+	display:inline-block;
+
+
+}
+
+.instagramHolder{
+text-align:center;
 }
 
 .instagramlogo:hover {
@@ -211,31 +224,41 @@ nav {
 }
 
 .youtubelogo {
-	float: right;
-	margin-top: 175px;
 	padding: 15px;
-	height: 45px;
-	width: 45px;
+	height: 60px;
+	width: 60px;
+	margin-bottom: -700px;
+	display:inline-block;
 }
+
 .youtubelogo:hover {
 	opacity: 0.8;
     filter: alpha(opacity=80);
 }
 
-.facebooklogo {
-	float: right;
-	margin-top: 175px;
-	padding: 15px;
-	height: 45px;
-	width: 45px;
+.youtubeHolder{
+text-align:center;
 }
+
+.facebooklogo {
+	padding: 15px;
+	height: 60px;
+	width: 60px;
+	margin-bottom: -700px;
+	display:inline-block;
+	}
+
 .facebooklogo:hover {
 	opacity: 0.8;
     filter: alpha(opacity=80);
 }
 
-.instagramlogodancegallery {
+.facebookHolder{
+text-align:center;
+}
 
+.instagramlogodancegallery {
+	padding: 10px;
 	padding: 10px;
 	height: 40px;
 	width: 40px;
@@ -716,7 +739,7 @@ h3 {
 
 #sitefooterhome {
 	position: absolute;
-	margin-bottom: -80px;
+	margin-bottom: -1360px;
   	right: 0;
   	bottom: 0;
   	left: 0;
@@ -726,7 +749,7 @@ h3 {
 
 #sitefooterdancevideo {
 	position: absolute;
-	margin-bottom: -2500px;
+	
   	right: 0;
   	bottom: 0;
   	left: 0;
@@ -736,7 +759,7 @@ h3 {
 
 #sitefooterphotographygallery {
 	position: absolute;
-	margin-bottom: -3450px;
+	
   	right: 0;
   	bottom: 0;
   	left: 0;
