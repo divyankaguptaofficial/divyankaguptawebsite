@@ -5,7 +5,7 @@ body{
 }
 
 .main {
-	height: 2000px;
+	height: 1800px;
 	background-image: url(Images/11.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -123,7 +123,51 @@ nav {
 .videohome {
 	padding: 30px;
 	margin-left: 90px;
-	margin-bottom: -1500px;
+	margin-bottom: -300px;
+
+}
+
+.homegallery {
+	height: 200px;
+	width: 200px;
+	margin-top: 800px;
+	padding: 15px;
+}
+
+.homegallery:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.homevideos {
+	height: 200px;
+	width: 200px;
+	margin-top: 800px;
+	padding: 15px;
+}
+
+.homevideos:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.homeportraits {
+	height: 200px;
+	width: 200px;
+	margin-top: 800px;
+	padding: 15px;
+}
+
+.homeportraits:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.homevideoheader {
+	font-size: 50px;
+	color: white;
+	text-decoration: underline;
+	margin-bottom: -100px;
 }
 /*category bar*/
 .category {
@@ -739,7 +783,7 @@ h3 {
 
 #sitefooterhome {
 	position: absolute;
-	margin-bottom: -1360px;
+	margin-bottom: -1160px;
   	right: 0;
   	bottom: 0;
   	left: 0;
