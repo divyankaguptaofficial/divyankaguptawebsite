@@ -773,11 +773,46 @@ h3 {
 
 /*footer*/
 
+.facebooklogofooter {
+	padding-left: 10px;
+	height: 40px;
+	width: 40px;
+	display:inline-block;
+	}
+
+.facebooklogofooter:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.instagramlogofooter {
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 40px;
+	width: 40px;
+	display:inline-block;
+	}
+
+.instagramlogofooter:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.youtubelogofooter {
+	height: 40px;
+	width: 40px;
+	display:inline-block;
+	}
+
+.youtubelogofooter:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+}
 
 #sitefooterhome {
-	height: 50px;
+	height: 20px;
 	font-size: 15px;
 	text-align: center;
-	line-height: 2.5;
+	line-height: 2;
 }
 
