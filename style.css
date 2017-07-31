@@ -6,13 +6,14 @@ body{
 
 
 .main {
-	height: 2500px;
-	background-image: url(Images/11.jpg);
-	background-color: #a49f99
-	background-position: center center;
+
+	background-image: url(Images/12.jpg);
+	height: 1800px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+
 
 @media screen and (min-width:1000px) {
 	#container {
@@ -410,7 +411,7 @@ footer {
 /*background for each page start*/
 
 .dancegalleryhead {
-	height: 3350px;
+	height: 3250px;
 	background-image: url(Images/gallerybackground.png);
 	background-position: center-center;
 	background-repeat: no-repeat;
@@ -774,7 +775,7 @@ h3 {
 
 #sitefootercontact {
 	position: absolute;
-	margin-bottom: -80px;
+	margin-bottom: -60px;
   	right: 0;
   	bottom: 0;
   	left: 0;
@@ -783,7 +784,7 @@ h3 {
 
 #sitefooterdancegallery {
 	position: absolute;
-	margin-bottom: -2725px;
+	margin-bottom: -2615px;
   	right: 0;
   	bottom: 0;
   	left: 0;
@@ -794,11 +795,12 @@ h3 {
 
 #sitefooterhome {
 	position: absolute;
-	margin-bottom: -1465px;
-  	right: 0;
-  	bottom: 0;
-  	left: 0;
+
+  	right: 0px;
+  	bottom: 0px;
+  	left: 0px;
   	background-color: black;
+
 
 }
 
