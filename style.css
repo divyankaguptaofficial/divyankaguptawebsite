@@ -9,7 +9,7 @@ body{
 	background-image: url(Images/11.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center-center;
+	background-position: center;
 	height: 1750px;
 }
 
@@ -771,7 +771,7 @@ h3 {
 	text-shadow: black 2px 2px 5px;
 }
 
-/*footer*/
+/*footer
 
 #sitefootercontact {
 	position: absolute;
@@ -823,3 +823,6 @@ h3 {
   	background-color: black;
 
 }
+
+*/
+
