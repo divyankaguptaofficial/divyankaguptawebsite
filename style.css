@@ -771,7 +771,7 @@ h3 {
 	text-shadow: black 2px 2px 5px;
 }
 
-/*footer
+/*footer*/
 
 #sitefootercontact {
 	position: absolute;
@@ -794,12 +794,11 @@ h3 {
 }
 
 #sitefooterhome {
-	position: absolute;
+	height: 70px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 2.5;
 
-  	right: 0px;
-  	bottom: 0px;
-  	left: 0px;
-  	background-color: black;
 
 
 }
@@ -824,5 +823,5 @@ h3 {
 
 }
 
-*/
+
 
