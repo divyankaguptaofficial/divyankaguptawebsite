@@ -142,7 +142,11 @@ nav {
 }
 
 .latestvideo {
-	background-color: #a49f99;
+	background: #8f8b85;
+    background: -webkit-linear-gradient(#d0cdc8, #726f6a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d0cdc8, #726f6a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d0cdc8, #726f6a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d0cdc8, #726f6a); /* Standard syntax */
 }
 
 .homeboxes {
@@ -424,15 +428,27 @@ footer {
 
 .dancegalleryhead {
 	background-color: #48132c;
+    background: -webkit-linear-gradient(#48132c, #b38d9e, #48132c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#48132c, #b38d9e, #48132c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#48132c, #b38d9e, #48132c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#48132c, #b38d9e, #48132c); /* Standard syntax */
 }
 
 
 .dancevideohead {
 	background-color: #07282b;
+	background: -webkit-linear-gradient(#07282b, #6a9ca0, #07282b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#07282b, #6a9ca0, #07282b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#07282b, #6a9ca0, #07282b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#07282b, #6a9ca0, #07282b); /* Standard syntax */
 }
 
 .photographygalleryhead {
-	background-color: #0c0c30;
+	background-color: #0c0c30; 
+	background: -webkit-linear-gradient(#0c0c30, #8fa8ef, #0c0c30); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0c0c30, #8fa8ef, #0c0c30); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0c0c30, #8fa8ef, #0c0c30); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0c0c30, #8fa8ef, #0c0c30); /* Standard syntax */
 }
 
 .photographyvideohead {
@@ -814,6 +830,7 @@ h3 {
 .endofpage {
 	height: 30px;
 	background-color: #000000;
+	
 	margin-top: 150px;
 }
 
