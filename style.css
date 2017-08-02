@@ -6,11 +6,11 @@ body{
 
 
 .main {
-	background-image: url(Images/11.jpg);
-	background-repeat: no-repeat;
+	
 	background-size: cover;
 	background-position: center;
-	height: 1750px;
+	margin-top: 60px;
+	height: 900px;
 }
 
 
@@ -26,10 +26,13 @@ body{
 
 /*website logo start*/
 
+
 .logo{
 	background-image: url(Images/logo.png)
 	float: left;
 	margin-top: 30px;
+	margin-left: 40px;
+	padding-bottom: 30px;
 	width: 100px;
 	height: 100px;
 	color: #fff;
@@ -45,28 +48,32 @@ body{
 /*website logo end*/
 
 
-.header {
-	margin-top: 0px;
+
+
+.header1 {
+	background-color: black;
 	width: 100%;
+	margin-bottom: -54px;
 }
 
-/*navbar start*/
+/*normal navbar start*/
 
 nav {
 	float: right;
-	margin-top: 60px;
+	margin-top: 70px;
+	margin-right: 50px;
 }
 
 .navbar {
 	color: #fff;
-	font-size: 15px;
+	font-size: 18px;
 	margin-left: 25px;
 	text-decoration: none;
 }
 
 .navbar:hover {
-	color: black;
-	text-shadow: white 2px 2px 5px;
+	color: #bba99c;
+	text-shadow: white 1px 1px 3px;
 
 }
 
@@ -75,15 +82,15 @@ nav {
     background-color: transparent;
     color: white;
     padding-left: 25px;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     cursor: pointer;
     outline: 0;
 }
 
 .dropbtn:hover {
-	color: black;
-	text-shadow: white 2px 2px 5px;
+	color: #bba99c;
+	text-shadow: white 1px 1px 3px;
 }
 .dropdown {
     position: relative;
@@ -110,7 +117,8 @@ nav {
 }
 
 .dropdown-content a:hover {
-	color: black
+	color: #bba99c;
+	text-shadow: white 1px 1px 3px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -122,19 +130,27 @@ nav {
 }
 
 
-/*navbar end*/
+/*normal navbar end*/
+
+
 
 .videohome {
 	padding: 30px;
 	margin-left: 90px;
-	margin-bottom: -240px;
+
 
 }
 
+.latestvideo {
+	background-color: #a49f99;
+}
+
+.homeboxes {
+	padding-bottom: 40px;
+}
 .homegallery {
 	height: 200px;
 	width: 200px;
-	margin-top: 800px;
 	padding: 15px;
 }
 
@@ -146,7 +162,6 @@ nav {
 .homevideos {
 	height: 200px;
 	width: 200px;
-	margin-top: 800px;
 	padding: 15px;
 }
 
@@ -158,7 +173,6 @@ nav {
 .homeportraits {
 	height: 200px;
 	width: 200px;
-	margin-top: 800px;
 	padding: 15px;
 }
 
@@ -169,7 +183,7 @@ nav {
 
 .homevideoheader {
 	font-size: 40px;
-	color: white;
+	color: black;
 	padding: 20px;
 	margin-bottom: -100px;
 }
@@ -188,13 +202,12 @@ nav {
 }
 
 .categorybar:hover {
-	color: black;
-	text-shadow: white 2px 2px 5px;
-
+	color: #bba99c;
+	text-shadow: white 1px 1px 3px;
 }
 
 .category:hover {
-	color: black;
+	color: #bba99c;
 	
 }
 
@@ -252,11 +265,11 @@ nav {
 
 
 
+
 .instagramlogo {
 	padding: 15px;
 	height: 60px;
 	width: 60px;
-	margin-bottom: -700px;
 	display:inline-block;
 
 
@@ -275,7 +288,6 @@ text-align:center;
 	padding: 15px;
 	height: 60px;
 	width: 60px;
-	margin-bottom: -700px;
 	display:inline-block;
 }
 
@@ -292,7 +304,6 @@ text-align:center;
 	padding: 15px;
 	height: 60px;
 	width: 60px;
-	margin-bottom: -700px;
 	display:inline-block;
 	}
 
@@ -398,7 +409,7 @@ text-align:center;
 
 
 footer {
-	color: white;
+	color: #c5e0f2;
 	margin-bottom: 25px;
 	text-decoration: none;
 	font-size: 10px;
@@ -412,36 +423,20 @@ footer {
 /*background for each page start*/
 
 .dancegalleryhead {
-	height: 3250px;
-	background-image: url(Images/gallerybackground.png);
-	background-position: center-center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #48132c;
 }
 
 
 .dancevideohead {
-	height: 3150px;
-	background-image: url(Images/dancevideobackground.png);
-	background-position: center-center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #07282b;
 }
 
 .photographygalleryhead {
-	height: 4100px;
-	background-image: url(Images/photographygallerybackground.png);
-	background-position: center-center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #0c0c30;
 }
 
 .photographyvideohead {
-	height: 2000px;
-	background-image: url(Images/photographyvideobackground.png);
-	background-position: center-center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #66425c;
 }
 
 .contacthead {
@@ -466,7 +461,7 @@ h1 {
 	font-size: 90px;
 	color: #fff;
 	text-align: center;
-	padding-top: 5px;
+	padding-top: 30px;
 	clear: both;
 	text-decoration: none;
 	border-bottom: 2px solid white;
@@ -619,9 +614,9 @@ h5 {
 	font-size: 90px;
 	color: #fff;
 	text-align: left;
-	margin-top: 50px;
+	margin-top: 60px;
 	margin-left: 50px;
-	padding-top: 0px;
+	padding-top: 30px;
 	clear: both;
 	text-shadow: black 2px 2px 5px;
 
@@ -814,5 +809,11 @@ h3 {
 	font-size: 15px;
 	text-align: center;
 	line-height: 2;
+}
+
+.endofpage {
+	height: 30px;
+	background-color: #000000;
+	margin-top: 150px;
 }
 
