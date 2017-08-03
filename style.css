@@ -807,13 +807,13 @@ h3 {
 
 /*contact page start*/
 
-h5 {
+.getintouch {
 	font-size: 90px;
 	color: #fff;
 	text-align: left;
 	margin-top: 60px;
 	margin-left: 50px;
-	padding-top: 30px;
+	padding-top: 100px;
 	clear: both;
 	text-shadow: black 2px 2px 5px;
 
@@ -821,7 +821,7 @@ h5 {
 
 .contactlogo {
 	margin-left: 25px;
-	margin-top: -140px;
+	margin-top: 20px;
 }
 
 /*contact page end*/
