@@ -261,16 +261,16 @@ nav {
 }
 
 .latestvideo {
-	background: #fde6d9;
+	background: #000000;
 }
 
 .homeboxes {
 	padding-bottom: 40px;
 }
 .homegallery {
-	height: 200px;
-	width: 200px;
-	padding: 15px;
+	height: 250px;
+	width: 250px;
+	padding: 5px;
 }
 
 .homegallery:hover {
@@ -279,9 +279,9 @@ nav {
 }
 
 .homevideos {
-	height: 200px;
-	width: 200px;
-	padding: 15px;
+	height: 250px;
+	width: 250px;
+	padding: 5px;
 }
 
 .homevideos:hover {
@@ -290,9 +290,9 @@ nav {
 }
 
 .homeportraits {
-	height: 200px;
-	width: 200px;
-	padding: 15px;
+	height: 250px;
+	width: 250px;
+	padding: 5px;
 }
 
 .homeportraits:hover {
@@ -302,7 +302,7 @@ nav {
 
 .homevideoheader {
 	font-size: 40px;
-	color: black;
+	color: white;
 	padding: 20px;
 	margin-bottom: -100px;
 }
@@ -690,6 +690,72 @@ h3 {
 	text-shadow: black 2px 2px 5px;
 }
 
+
+.gallery { 
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    margin-top: 10px;
+  overflow: hidden;
+}
+
+.gallery img { 
+    width: 100%; 
+    height: auto;
+    transition: 500ms;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.gallery img:hover {
+    opacity: 1;
+}
+
+.modal-img,.model-vid{
+  width:100%;
+  height:auto;
+}
+.modal-body{
+  padding:0px;
+}
+
+.modal-dialog {
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    top: 10%;
+}
+
+.modal-content {
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+	.gallery { 
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+	.gallery div { margin: 0; 
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .gallery { 
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+    .gallery div { 
+        margin: 0; 
+        width: 200px;
+    }
+}
+
 /*dance gallery page end*/
 
 
@@ -942,10 +1008,21 @@ h3 {
 	line-height: 2;
 }
 
+.endofpage1 {
+	height: 30px;
+	background-color: #000000;
+	margin-top: 430px;
+}
+
 .endofpage {
 	height: 30px;
 	background-color: #000000;
-	
-	margin-top: 330px;
+	margin-top: 140px;
 }
 
+hr {
+	height: 2px;
+	width: 350px;
+	margin-top: -30px;
+	border-color: black;
+}
